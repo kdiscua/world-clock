@@ -1,6 +1,25 @@
-background {
+body {
   background-color: #f9f7fe;
   font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 36px;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+
+select {
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 10px;
 }
 
 .container {
@@ -32,29 +51,13 @@ background {
   font-size: 48px;
   font-weight: bold;
 }
+
 .time small {
   font-size: 24px;
   vertical-align: middle;
-  line-height: 36px;
-}
-select {
-  display: block;
-  width: 100%;
-  font-size: 18px;
-  border-radius: 4px;
-  padding: 10px;
+  line-height: 48px;
 }
 
-h1 {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 36px;
-}
-
-h2 {
-  margin: 0 0 5px;
-  font-size: 28px;
-}
 footer {
   text-align: center;
   font-size: 18px;
